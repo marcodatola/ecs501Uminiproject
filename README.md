@@ -21,6 +21,8 @@ network layer 2 packets, which consist of,
   -  source address, represented by a character;
   -	destination address, represented by a character; 
   -	payload, represented by an array of characters; 
+  	
+  
 network layer 3 packets which are extracted from layer 2 packets arriving at the router; their structure is as follows: 
   -	source address, represented by an integer value; 
   - destination address, represented by an integer value; 
