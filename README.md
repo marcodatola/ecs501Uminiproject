@@ -22,9 +22,9 @@ The router application will also need to define the structure of:
   -	destination address, represented by a character; 
   -	payload, represented by an array of characters; 
 2. network layer 3 packets which are extracted from layer 2 packets arriving at the router; their structure is as follows: 
--	source address, represented by an integer value; 
-- destination address, represented by an integer value; 
-- priority field, represented by an integer value;
-- payload, represented by an array of characters;
+  -	source address, represented by an integer value; 
+  - destination address, represented by an integer value; 
+  - priority field, represented by an integer value;
+  - payload, represented by an array of characters;
 
 
