@@ -17,11 +17,11 @@ Output queues, which should have a configurable maximum length.
 The main queue in the router, which multiplexes all the packets arriving on the input queues – this queue should also have a configurable maximum length. 
 
 The router application will also need to define the structure of: 
-1. network layer 2 packets, which consist of,
+network layer 2 packets, which consist of,
   -  source address, represented by a character;
   -	destination address, represented by a character; 
   -	payload, represented by an array of characters; 
-2. network layer 3 packets which are extracted from layer 2 packets arriving at the router; their structure is as follows: 
+network layer 3 packets which are extracted from layer 2 packets arriving at the router; their structure is as follows: 
   -	source address, represented by an integer value; 
   - destination address, represented by an integer value; 
   - priority field, represented by an integer value;
